@@ -20,6 +20,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
       setState(() {
         _showFirstImage = !_showFirstImage;
       });
+      Navigator.pushReplacementNamed(context, '/base');
     });
   }
 
