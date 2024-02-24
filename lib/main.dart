@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:frontend/app/screens/Intro1.dart';
+import 'package:frontend/app/screens/focus.dart';
+import 'package:frontend/app/screens/oftenuse.dart';
+import 'package:frontend/app/screens/signup4.dart';
 
 import 'app/screens/loading.dart';
-import './app/module/base_structure.dart';
+import 'app/screens/signup1.dart';
 
 void main() => runApp(const MyApp());
 
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
         // 라우트 설정
         initialRoute: '/',
         routes: {
-          '/': (context) => BaseStructureScreen(),
+          '/': (context) => Intro1Screen()
           // '/base': (context) => BaseStructureScreen(), // 추가된 라우트
         },
       ),
