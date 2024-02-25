@@ -28,6 +28,12 @@
       "args": ["-d", "chrome"]
     },
     {
+      "name": "web release",
+      "request": "launch",
+      "type": "dart",
+      "args": ["-d release", "chrome"]
+    },
+    {
       "name": "device",
       "request": "launch",
       "type": "dart"

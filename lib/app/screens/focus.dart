@@ -35,7 +35,7 @@ class _FocusScreenState extends State<FocusScreen>
   }
 
   void _startAnimation() {
-    _timer = Timer.periodic(Duration(seconds: 1), (timer) {
+    _timer = Timer.periodic(Duration(seconds: 2), (timer) {
       setState(() {
         double maxWidth = MediaQuery.of(context).size.width - _imageSize;
         double maxHeight = MediaQuery.of(context).size.height - _imageSize;

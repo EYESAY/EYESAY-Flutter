@@ -26,7 +26,8 @@ class _OftenUseScreenState extends State<OftenUseScreen> {
     _currentList = wordEmojiPairs;
   }
 
-  bool isOn = false;
+  //tracking on/off
+  bool isOn = true;
 
   void _addTalkBox(String text) {
     setState(() {

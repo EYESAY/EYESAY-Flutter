@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:frontend/app/screens/Intro1.dart';
 import 'package:frontend/app/screens/oftenuse.dart';
 
 class Signup4Screen extends StatelessWidget {

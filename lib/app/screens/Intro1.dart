@@ -188,7 +188,7 @@ class _Intro1ScreenState extends State<Intro1Screen>
                 padding: EdgeInsets.fromLTRB(0, 100.h, 0, 0),
                 child: Transform.translate(
                   offset: Offset(0, _animation!.value),
-                  child: Image.asset('logo_blue_big.png', width: 350.w),
+                  child: Image.asset('assets/logo_blue_big.png', width: 350.w),
                 ),
               ),
             ],

@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:frontend/app/screens/Intro1.dart';
-import 'package:frontend/app/screens/focus.dart';
 import 'package:frontend/app/screens/oftenuse.dart';
-import 'package:frontend/app/screens/signup4.dart';
-
-import 'app/screens/loading.dart';
-import 'app/screens/signup1.dart';
+import 'package:frontend/app/screens/signup1.dart';
+import 'package:frontend/app/screens/signup2.dart';
+import 'package:frontend/app/screens/signup3.dart';
 
 void main() => runApp(const MyApp());
 

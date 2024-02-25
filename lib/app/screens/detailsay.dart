@@ -34,7 +34,8 @@ class _DetailSayScreenState extends State<DetailSayScreen> {
     super.dispose();
   }
 
-  bool isOn = false;
+  //tracking on/off
+  bool isOn = true;
 
   void _addTalkBox(String text) {
     if (!isGroupTitleSets || isTextField == true || isYesorNo == true) {
